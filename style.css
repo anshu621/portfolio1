@@ -1,4 +1,4 @@
-    body {
+   body {
         font-family: "Poppins", Arial, sans-serif;
         background: #000000;
         font-size: 16px;
@@ -40,6 +40,14 @@
         display: inline;
         margin: 0 20px;
         color: #d5b54c;
+    }
+    header nav ul li a {
+        
+        color: #d5b54c;
+    }
+    header nav ul li a:hover {
+        
+        color: #b49e3c;
     }
     
     #home {
@@ -205,7 +213,7 @@
         align-content: center;
     }
     
-    #Reume button align-center;
+   
     #Resume button:hover {
         background: #b49e3c;
     }
@@ -399,21 +407,29 @@
         align-content: center;
     }
     
-    .cer-gallery {
+    .Cer-gallery{
+        width:100%;
         display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        
     }
-    
-    .cer-item img {
-        display: inline;
-        s height: auto;
+    .Cer-gallery img {
+      width: 350px;
+      height: 250px;
+      margin: 12px;
+      border: 2px solid;
+      border-radius: 13px;
     }
-    
-    .cer-item h3 {
-        margin: 15px;
-        color: #d5b54c;
-    }
-    
-    .cer-item p {
-        margin: 15px;
-        color: #ffffff;
+ header menu {
+     
+color: #d5b54c;
+  
+ }
+ header menu li:hover{
+    color: #b49e3c;
+ }
+ 
     }
