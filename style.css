@@ -434,9 +434,11 @@ color: #d5b54c;
     .Cer-gallery img:hover{
     box-shadow: #1c272e;
     width:60%; 
+        transform: scale(1.5);
     
  }
 
  
+
 
 
